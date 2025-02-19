@@ -1,4 +1,4 @@
-# A Guide to Resolving Merge Conflicts
+# Git Merge Conflict Guide
 
 ## Understanding Merge Conflicts
 When merging branches in Git, conflicts occur when the same lines of a file are modified in different ways in two branches. Git cannot automatically decide which version to keep and marks the conflicting section with **conflict markers**.
@@ -9,7 +9,7 @@ When merging branches in Git, conflicts occur when the same lines of a file are 
 When Git detects a conflict in `README.md`, it inserts markers like this:
 
 ```md
-# ICS4U Travel Guide 🌍
+# ICS4U Travel Guide
 
 ## Entries
 - 🇫🇷 Paris, France  
@@ -45,8 +45,6 @@ When Git detects a conflict in `README.md`, it inserts markers like this:
 7. Click **"Commit merge"**.
 8. Merge the Pull Request.
 
-✅ Best if you’re working entirely in GitHub without a local Git setup.
-
 ---
 
 ### **2️⃣ Using VS Code IDE (Graphical Approach)**
@@ -68,8 +66,6 @@ When Git detects a conflict in `README.md`, it inserts markers like this:
    ```bash
    git push origin mr_cheng
    ```
-
-✅ Best for students using VS Code with Git integration.
 
 ---
 
@@ -102,8 +98,6 @@ When Git detects a conflict in `README.md`, it inserts markers like this:
    ```bash
    git push origin mr_cheng
    ```
-
-✅ Best for students comfortable with command-line Git.
 
 ---
 
